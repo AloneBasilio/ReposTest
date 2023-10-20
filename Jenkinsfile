@@ -10,7 +10,7 @@ pipeline {
 		
 		stage ('execute python file') {
 			steps {
-				sh 'python333 file.py'
+				sh 'python3 file.py'
 			}
 		}
 	}
